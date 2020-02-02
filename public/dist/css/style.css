@@ -1702,7 +1702,15 @@ textarea.form-control {
   align-items: center; }
   .form-inline .form-check {
     width: 100%; }
+
+  @media screen and (max-width: 576px) {
+    .name{
+      display: none;
+    }
+  }  
+
   @media (min-width: 576px) {
+   
     .form-inline label {
       display: flex;
       align-items: center;

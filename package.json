@@ -23,5 +23,6 @@
     "mysql2": "^2.1.0",
     "node-modules": "^1.0.1",
     "nodemon": "^2.0.2"
-  }
+  },
+  "aurthor": "Rajat Gouri"
 }
