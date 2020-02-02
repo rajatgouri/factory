@@ -1,0 +1,16 @@
+ {
+    "India": {
+        "Delhi": [
+            "new Delhi",
+            "North Delhi"
+        ],
+        "Kerala": [
+            "Thiruvananthapuram",
+            "Palakkad"
+        ],
+        "Goa": [
+            "North Goa",
+            "South Goa"
+        ]
+    }
+}

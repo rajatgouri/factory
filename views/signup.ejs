@@ -1,0 +1,73 @@
+<%- include('includes/head.ejs') %>
+<link rel="stylesheet" href="/stylesheets/signup.css">
+</head>
+
+<body>
+    <!-- <%- include('includes/navigation.ejs') %> -->
+    <div class="limiter">
+        <div class="container-signup100" style="background-image: url('images/signup-banner.jpg');">
+            <div class="wrap-signup100  p-b-30">
+                <span class="signup100-form-title p-b-8">
+                    Signup
+                </span>
+                <div class="signup100-form">
+                    <div class="validate-form p-b-33 p-t-5 rounded-circle" style="background-color: white;">
+                        <div class="wrap-input100 validate-input" data-validate="Enter Correct Name">
+                            <input class="input100 name" type="text" name="name" placeholder="Username">
+                            <span class="focus-input100" data-placeholder="&#xe82a;"></span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Enter Correct Email">
+                            <input class="input100 email" type="text" name="email" placeholder="Email">
+                            <span class="focus-input100" data-placeholder="&#xe818;"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="wrap-input100 validate-input" data-validate="Enter Correct password">
+                                    <input class="input100 password" type="text" name="password" maxlength="8"
+                                        placeholder="Password">
+                                    <span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="wrap-input100 validate-input" data-validate="Enter Correct phone">
+                                    <input class="input100 phone" type="text" name="phone" maxlength="10" minlength="10"
+                                        placeholder="Phone">
+                                    <span class="focus-input100" data-placeholder="&#xe83a;"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=" col-sm-6">
+                                <div class="wrap-input100 validate-input" data-validate="Please Select Country">
+                                    <select class="input100 countrySel" name="country" type="select">
+                                        <option value="" selected="selected">Select Country</option>
+
+                                    </select>
+                                    <span class="focus-input100" data-placeholder="&#xe833;"></span>
+                                </div>
+                            </div>
+                            <div class=" col-sm-6">
+
+                                <div class="wrap-input100 validate-input" data-validate="Please Select State">
+                                    <select class="input100 stateSel" name="state" type="select">
+                                        <option value="" selected="selected">Select State</option>
+                                    </select>
+                                    <span class="focus-input100" data-placeholder="&#xe835;"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container-signup100-form-btn m-t-15 p-b-16">
+                            <button class="signup100-form-btn">
+                                signup
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/javascripts/signup.js"></script>
+    <%- include('includes/end.ejs') %>
